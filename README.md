@@ -1,11 +1,7 @@
-<div style="display:flex; justify-content: space-around;"> 
-  <div>
-    <img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400">
-  </div>
-  <div>
-    <img src="https://cli.vuejs.org/favicon.png" width="400">
-  </div>
-</div>
+<p align="center">
+  <img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400">
+  <img src="https://cli.vuejs.org/favicon.png" width="150">
+</p>
 
 <!-- <p align="left">
     <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
