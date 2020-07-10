@@ -3,56 +3,43 @@
   <img src="https://cli.vuejs.org/favicon.png" width="120">
 </p>
 
-<p align="center">
-    <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-    <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License">
-    </a>
-</p>
-
-
-
-
-
-
 # Laravel & Vue boilerplate
 
 ## Project setup
 Install node_modules.
 ```
-npm install
+$ npm install
 ```
 
 Install Laravel Composer in your project folder, command in your terminal. 
 ```
-composer install
+$ composer install
 ```
 
 Create .env file just command in your terminal:
 ```
-cp .env.example .env
+$ cp .env.example .env
 ```
 
 Laravel key:Generate in your project
 ```
-php artisan key:generate
+$ php artisan key:generate
 ```
 Navigate your project then command in your terminal:
 ``` 
-php artisan serve
+$ php artisan serve
 ```
 
 Compiles and reloads for development
 ``` 
-npm run watch or npm run dev
+$ npm run watch or npm run dev
 ```
 Happy Coding :)
 
 
 Compiles and minifies for production
 ```
-npm run prod or npm run production (build your site)
+$ npm run prod or npm run production (build your site)
 ```
 
 After build your site then Remove 
@@ -71,13 +58,13 @@ After build your site then Remove
 
 Install Laravel Project
 ```  
-composer create-project --prefer-dist laravel/laravel myProject
+$ composer create-project --prefer-dist laravel/laravel myProject
 ```
 
 Navigate your project
 ``` 
-* cd myProject 
-* php artisan serve
+* $ cd myProject 
+* $ php artisan serve
 ```
 Check laravel properly install, you can show your browser.
 
@@ -86,33 +73,33 @@ Check laravel properly install, you can show your browser.
 
 Navigate your project then command in your terminal:
 ``` 
-composer require laravel/ui
+$ composer require laravel/ui
 ``` 
 
 npm install && npm run dev to compile your fresh scaffolding 
 ```	
-npm install or npm i
+$ npm install or npm i
 
-npm run dev
+$ npm run dev
 ```
 
 Generate basic scaffolding...
 ```	
-php artisan ui vue
+$ php artisan ui vue
 ```	
 
 Generate login / registration scaffolding...
 ```	
-php artisan ui vue --auth
+$ php artisan ui vue --auth
 ```	
 
 Check your myProject folder, go to resources folder then you can see components folder and files..
 
 Compiles and reloads for development
 ```	 
-npm install
+$ npm install
 
-npm run dev
+$ npm run dev
 ```	
 
 ### Vue integrate in your laravel blade file
@@ -132,9 +119,9 @@ npm run dev
 
 Navigate your project then command in your terminal:
 ```
-cd myProject 
-php artisan serve
-npm run watch or npm run dev
+$ cd myProject 
+$ php artisan serve
+$ npm run watch or npm run dev
 ```
 
 Happy Laravel & Vue Coding :-)
