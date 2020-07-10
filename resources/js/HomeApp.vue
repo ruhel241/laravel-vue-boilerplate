@@ -1,30 +1,16 @@
 <template>
-    <!-- <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header">Example Vue Component</div>
+    <div class="flex-center position-ref full-height">
+            <div class="content">
+            <div class="title m-b-md">
+                <img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400">
+                <img src="https://cli.vuejs.org/favicon.png" width="120">
+            </div>
 
-                    <div class="card-body">
-                        I'm an example vue component.
-                    </div>
-                </div>
+            <div class="links">
+                <a href="https://github.com/ruhel241/laravel-vue-boilerplate">GitHub</a>
             </div>
         </div>
-    </div> -->
-
-      <div class="flex-center position-ref full-height">
-              <div class="content">
-                <div class="title m-b-md">
-                    <img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400">
-                    <img src="https://cli.vuejs.org/favicon.png" width="120">
-                </div>
-
-                <div class="links">
-                    <a href="https://github.com/ruhel241/laravel-vue-boilerplate">GitHub</a>
-                </div>
-            </div>
-        </div>
+    </div>
 
 </template>
 
